@@ -1,3 +1,5 @@
+import Solver from "./class/solver"
+
 export default function solvePuzzle(pieces) {
-    return [pieces[0].id];
+    return (new Solver(pieces)).getSolution()
 }
