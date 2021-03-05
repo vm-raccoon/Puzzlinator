@@ -8,7 +8,7 @@ export default class Solver {
     }
 
     solve(){
-        while(this.pieces[0].edges.top || this.pieces[0].edges.left){
+        while(!this.pieces[0].edges.right || !this.pieces[0].edges.bottom){
             this.pieces[0].rotate()
         }
 
