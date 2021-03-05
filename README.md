@@ -140,3 +140,7 @@
 ### Исходник задачи:
 
 https://gist.github.com/xanf/9e11a5faf618a018737a9efd252746da
+
+### Решение:
+
+https://vm-raccoon.github.io/Puzzlinator/dist/
