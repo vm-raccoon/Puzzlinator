@@ -18,8 +18,8 @@ export default class Piece {
 
     isNearby(side, piece){
         return this.edges[side] && Object.values(piece.edges)
-            .map(i => i ? i.edgeTypeId : 0)
-            .filter(i => i)
+            .map(i => i ? i.edgeTypeId : -1)
+            .filter(i => i > -1)
             .includes(this.edges[side].edgeTypeId)
     }
 
