@@ -8,7 +8,7 @@ module.exports = {
     mode: "production",
     entry: path.resolve(__dirname, "src/index.js"),
     output: {
-        filename: "bundle.js",
+        filename: "bundle.[contenthash].js",
         path: path.resolve(__dirname, "dist"),
     },
     devServer: {
